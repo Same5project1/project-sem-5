@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+    .head11 h1 {
+        background-color: #7c8785;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        align-items: center;
+        text-align: center;
+        margin-top: 1.5%;
+    }
+    
+    .page {
+        font-family: sans-serif;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(105, 113, 112);
+        margin-top: 31.5%;
+    }
+    
+    body {
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebeaea;
+    }
+    
+    .btn {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        font-size: larger;
+        margin-left: 70%;
+        margin-top: 15px;
+        border-color: aliceblue;
+        border-radius: 10px;
+    }
+    
+    h5 {
+        font-size: larger;
+        color: red
+    }
+    
+    .limit {
+        background-color: aliceblue;
+        background-size: 1px;
+    }
+    
+    video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .m1 {
+        background-color: #5a5f5e;
+        margin-left: 80px;
+        color: rgb(228, 232, 236);
+    }
+    @media (max-width: 969px) {
+        .card-wrapper {
+          flex-wrap: wrap;
+        }
+        .card {
+          width: 50%;
+        }
+      }
+      
+      @media (max-width: 500px) {
+        .card-wrapper {
+          flex-wrap: wrap;
+        }
+        .card {
+          width: 100%;
+          margin: 20px;
+        }
+      }
+      
