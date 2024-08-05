@@ -4,6 +4,7 @@ $servername="localhost";
 $username="root";
 $password="";
 $dbname="travel";
+
 $db = mysqli_connect('localhost','root','','travel');
 
 $username = $_POST["user"];
